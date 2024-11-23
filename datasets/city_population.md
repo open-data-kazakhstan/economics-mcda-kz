@@ -51,10 +51,18 @@
 ### Мысалы:
 ```python
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Деректерді жүктеу
 data = pd.read_csv('city_population.csv')
 
-# Жалпы халық саны бойынша алғашқы 5 өңірді көрсету
-top_regions = data.sort_values(by='Total', ascending=False).head(5)
-print(top_regions)
+# Өңірлердің халық саны бойынша график
+plt.figure(figsize=(10, 6))
+plt.bar(data['Region'], data['Total'], color='skyblue')
+plt.title('Қазақстан өңірлерінің халық саны', fontsize=14)
+plt.xlabel('Өңірлер', fontsize=12)
+plt.ylabel('Халық саны', fontsize=12)
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.savefig('population_chart.png')
+plt.show()
