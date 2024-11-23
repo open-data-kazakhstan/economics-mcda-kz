@@ -38,14 +38,7 @@
 
 ### Визуализация:
 
-```jsx
-<LineChart
-  data={{ url: 'datasets/normalized_data.csv' }}
-  title="Нормализованные значения"
-  xAxis="Показатели"
-  yAxis="Нормализованное значение"
-/>
-```
+<LineChart data={{ url: 'datasets/normalized_data.csv' }} title="Нормализованные значения" xAxis="Показатели" yAxis="Нормализованное значение" />
 
 ## 🗂️ [city_population.csv](datasets/city_population.md)
 
