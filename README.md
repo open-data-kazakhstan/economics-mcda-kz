@@ -38,7 +38,7 @@
 
 ### Визуализация:
 
-<LineChart data={{ url: 'datasets/normalized_data.csv' }} title="Нормализованные значения" xAxis="Показатели" yAxis="Нормализованное значение" />
+<LineChart data={{ url: 'datasets/ranking.csv' }} title="Рейтинг городов и областай" xAxis="Города и области" yAxis="Рейтинг" />
 
 ## 🗂️ [city_population.csv](datasets/city_population.md)
 
