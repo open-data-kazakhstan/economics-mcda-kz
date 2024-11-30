@@ -42,12 +42,12 @@
 
 Ниже представлен график для данных, хранящихся в файле `ranking.csv`. Этот файл содержит нормализованные значения, где каждый показатель находится в диапазоне от 0 до 1.
 
-## 🗂️ [city_population.csv](datasets/city_population.md)
+## [city_population.csv](datasets/city_population.md)
 
-## 🗂️ [monetary_expenses_of_the_population_data.csv](datasets/monetary_expenses_of_the_population_data.md)
+## [monetary_expenses_of_the_population_data.csv](datasets/monetary_expenses_of_the_population_data.md)
 
-## 🗂️ [monetary_income_of_the_population_data.csv](datasets/monetary_income_of_the_population_data.md)
+## [monetary_income_of_the_population_data.csv](datasets/monetary_income_of_the_population_data.md)
 
-## 🗂️ [unemployed_KZRegion_data.csv](datasets/unemployed_KZRegion_data.md)
+## [unemployed_KZRegion_data.csv](datasets/unemployed_KZRegion_data.md)
 
 
