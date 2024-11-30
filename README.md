@@ -38,7 +38,9 @@
 
 ### Визуализация:
 
-<LineChart data={{ url: 'datasets/ranking.csv' }} title="Рейтинг городов и областай" xAxis="Регионы" yAxis="Рейтинг" />
+<PlotlyBarChart data={{ url: 'datasets/ranking.csv' }} xAxis="Регионы" yAxis="Рейтинг" />
+
+<FlatUiTable data={{ url: 'datasets/ranking.csv' }} />
 
 ## 🗂️ [city_population.csv](datasets/city_population.md)
 
