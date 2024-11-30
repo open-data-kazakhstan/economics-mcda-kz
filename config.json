@@ -12,7 +12,7 @@
     "logo": ""
   },
   "navLinks": [
-    { "href": "/docs", "name": "Docs" }
+    { "href": "/datasets", "name": "datasets" }
   ],
   "showSidebar": true
 }
