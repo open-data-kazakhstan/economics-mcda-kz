@@ -18,6 +18,7 @@
 - datasets/dataset.csv - Барлық негізгі көрсеткіштер біріктірілген және талдауға дайын біріккен деректер жиынтығы.  
 - datasets/normalized_data.csv - 0-ден 1-ге дейінгі масштабта нормаланған экономикалық көрсеткіштер деректері.  
 
+### normalized_data.csv
 <FlatUiTable data={{ url: 'datasets/normalized_data.csv' }} />
 
 
